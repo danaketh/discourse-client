@@ -1,0 +1,22 @@
+{
+  "name": "danaketh/discourse-client",
+  "description": "Client for Discourse API",
+  "keywords": ["discourse", "api", "client"],
+  "homepage": "https://github.com/danaketh/discourse-client",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Daniel Tlach",
+      "homepage": "https://daniel.tlach.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "danaketh\\Discourse\\": "danaketh/Discourse"
+    }
+  }
+}
